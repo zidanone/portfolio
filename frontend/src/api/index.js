@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000/api/',
+  baseURL: 'portfolio-b4be.onrender.com/api/',
 });
 
 export const getOverview = () => API.get('overview/');
